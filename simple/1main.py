@@ -12,14 +12,14 @@ def solve(list):
 
     return list
 
-print(solve([4, 6, 8, 1, 5, 9]))
+print(solve(p))
 
-string = "1, 6, 0, 5, 'none', []"
+string = p
 substring = "[]"
 count = string.count(substring)
 print (count)
 
-n=[0][::-1]
+n=p[::-1]
 print(n)
 
 def minimum(x):
@@ -30,20 +30,20 @@ def maximum(x):
     x = sorted(x)
     return x[-1]
 
-print(minimum([-1, -2, -3, -4, -5]))
-print(maximum([-1, -2, -3, -4, -5]))
+print(minimum(p))
+print(maximum(p))
 
-lst = [0, 1, 2]
+lst = p
 lst1 = []
 for i in lst:
     if i not in lst1:
         lst1.append(i)
 print(lst1)
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
 def listsum(numList):
    if len(numList) == 1:
         return numList[0]
    else:
         return numList[0] + listsum(numList[1:])
 
-print(listsum([1,3,5,7,9]))
+print(listsum(p))
