@@ -1,7 +1,8 @@
 
 
 def sort(p: list) -> list:
-    pass
+    p.sort()
+    return p
 
 
 def find(p: list, i) -> int:
